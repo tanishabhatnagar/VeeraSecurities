@@ -133,11 +133,28 @@ export default function HeroSection() {
             462043
         </p>
         <div class="mt-4 flex flex-col items-center">
-            <img src="https://www.svgrepo.com/show/521128/email-1.svg" alt="Email Icon" class="w-6 h-6 mx-auto mb-2" />
+        
+
+<Image
+  src="https://www.svgrepo.com/show/521128/email-1.svg"
+  alt="Email Icon"
+  width={24}  // Corresponds to 'w-6' in TailwindCSS, where 1 tailwind unit is 4px
+  height={24} // Corresponds to 'h-6' in TailwindCSS
+  className="mx-auto mb-2"
+/>
+
             <span class="text-black">veerasecurities@gmail.com | www.veerasecurities.com</span>
         </div>
         <div class="mt-4 flex flex-col items-center">
-            <img src="https://www.svgrepo.com/show/533285/phone.svg" alt="Phone Icon" class="w-6 h-6 mx-auto mb-2" />
+
+        <Image
+  src="https://www.svgrepo.com/show/533285/phone.svg"
+  alt="Email Icon"
+  width={24}  // Corresponds to 'w-6' in TailwindCSS, where 1 tailwind unit is 4px
+  height={24} // Corresponds to 'h-6' in TailwindCSS
+  className="mx-auto mb-2"
+/>
+            
             <span class="text-black">9111222334, 9827755662</span>
         </div>
     </div>
@@ -154,11 +171,23 @@ export default function HeroSection() {
             462043
         </p>
         <div class="mt-4 flex flex-col items-center">
-            <img src="https://www.svgrepo.com/show/521128/email-1.svg" alt="Email Icon" class="w-6 h-6 mx-auto mb-2" />
+        <Image
+  src="https://www.svgrepo.com/show/521128/email-1.svg"
+  alt="Email Icon"
+  width={24}  // Corresponds to 'w-6' in TailwindCSS, where 1 tailwind unit is 4px
+  height={24} // Corresponds to 'h-6' in TailwindCSS
+  className="mx-auto mb-2"
+/>
             <span class="text-black">veerasecurities@gmail.com | www.veerasecurities.com</span>
         </div>
         <div class="mt-4 flex flex-col items-center">
-            <img src="https://www.svgrepo.com/show/533285/phone.svg" alt="Phone Icon" class="w-6 h-6 mx-auto mb-2" />
+        <Image
+  src="https://www.svgrepo.com/show/533285/phone.svg"
+  alt="Email Icon"
+  width={24}  // Corresponds to 'w-6' in TailwindCSS, where 1 tailwind unit is 4px
+  height={24} // Corresponds to 'h-6' in TailwindCSS
+  className="mx-auto mb-2"
+/>
             <span class="text-black">9111222334, 9827755662</span>
         </div>
     </div>

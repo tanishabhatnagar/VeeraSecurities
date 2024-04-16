@@ -1,23 +1,24 @@
 import React from "react";
+import Image from "next/image";
 
 const ServicesData = [
   {
     id: 1,
-    img: 'images/img1.png ',
+    img: '/images/img1.png ',
     name: "Experienced Staff",
     description:
       "We have experienced professionals who can easily understand our clients' requirements."
   },
   {
     id: 2,
-    img: 'images/img2.png',
+    img: '/images/img2.png',
     name: "Top-Tier Quality",
     description:
       "Our no-compromise approach to quality ensures that our solutions are robust, user-friendly, and last for years."
   },
   {
     id: 3,
-    img: 'images/img3.png ',
+    img: '/images/img3.png ',
     name: "Affordable",
     description:
       "Our services have competitive pricing in the security market."
@@ -45,13 +46,16 @@ const Services = () => {
                     data-aos-duration="300"
                     className="rounded-2xl mb-5 bg-gray-800 relative shadow-xl duration-high group h-[320px] transition-transform hover:-translate-y-2 flex flex-col justify-between"
                   >
-                    <div className="mt-5 h-[240px] w-[240px] flex items-center justify-center overflow-hidden mx-auto">
-                      <img
+
+
+<div className="mt-5 h-[240px] w-[240px] flex items-center justify-center overflow-hidden mx-auto">
+<img
                         src={service.img}
                         alt=""
                         className="max-h-full max-w-full transform group-hover:scale-105 duration-300"
-                      />
-                    </div>
+                      /> 
+</div>
+
                     <div className="p-5 text-center flex flex-col justify-between flex-grow">
                       <div>
                         <h1 className="text-xl font-bold mb-1 text-gray-200">{service.name}</h1>
